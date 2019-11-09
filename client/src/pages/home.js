@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./img/influent-logo-vector.svg";
+import Logo from "./img/influent-logo-vector-2.svg";
 // eslint-disable-next-line 
 import Hero from "./img/hero-notext.png"
 
@@ -25,12 +25,12 @@ function About() {
 
 <div className="earnings clearfix">
 	<div className="container">
-		<div className="col-sm-6 col-xs-12 earning-vertical-align">
+		<div className="col-sm-12 col-xs-12 earning-vertical-align">
 			<div className="earnings-content">
-				<h1>take control of the</h1>
-        <h1>new age of e-commerce</h1>
+				<h1 className= "hero1-text"><span className="erato-italic">take control</span> of the</h1>
+        <h1 className= "hero1-text">new age of e-commerce</h1>
 
-				<a className="btn-oval white" href="https://www.repostnetwork.com/apply.html">Get Started</a>
+				<a className="btn btn-1" href="https://www.repostnetwork.com/apply.html"> get started </a>
 			</div>
 		</div>
 	</div>

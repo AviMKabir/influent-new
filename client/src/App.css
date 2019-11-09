@@ -1,3 +1,34 @@
+/* aliasing */
+
+@font-face {
+  font-family: 'EratoBold';
+  src: local('EratoBold'), url(./fonts/EratoBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'EratoBoldIta';
+  src: local('EratoBoldIta'), url(./fonts/EratoBoldIta.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: local('ProximaNovaBold'), url(./fonts/ProximaNovaBold.otf) format('opentype');
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.erato-italic {
+  font-family: 'EratoBoldIta' !important;
+}
+
 .App {
   text-align: center;
 }
@@ -21,34 +52,48 @@
   color: #09d3ac;
 }
 
-
-h1,h2,h3,h4,h5 {
-
-
-  font-family: EratoBold;
-
-
-
+h1, h2, h3, h4 {
+  font-family: 'EratoBold'
 }
 
 .sign-in {
-
-
-color: #222;
-transition: 0.5s;
-
+  color: #222;
+  transition: 0.5s;
 }
 
-.nav-link:hover {color: #B3E4C7;}
-
+.nav-link:hover {
+  color: #B3E4C7;
+}
 
 .get-started {
+  /* background: url(./pages/img/hero-vector-pngx2.png); */
+  background: #B3E4C7;
+  /* background-size: cover; */
+  min-height: 600px;
+}
 
-/* background: url(./pages/img/hero-vector-pngx2.png); */
-background: #B3E4C7;
-/* background-size: cover; */
+.hero1-text {
+  color: white;
+  line-height: 0.85;
+  font-size: 43px;
+  text-shadow: 1px 3px 4px #0000005d;
+}
 
-min-height: 600px;
+.btn-1 {
+  font-family: 'ProximaNovaBold';
+  font-size: 25px;
+  padding: 3px 25px;
+  color: #FFF;
+  border-radius: 11px;
+  background: #259782;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;
+  width: 180px !important;
+}
+
+.btn-1:hover {
+  color: #FFF;
+  background: #41c0a9;
 }
 
 .earnings {
@@ -57,43 +102,113 @@ min-height: 600px;
   background-position: center;
   height: 0;
   padding-bottom: 37.5%;
-  position: relative; }
+  position: relative;
+}
 
+@media (min-width: 1200px) {
+  .hero1-text {
+    line-height: 0.85;
+  }
+  .earnings .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings .earning-vertical-align .earnings-content {
+    position: relative;
+    left: 600px;
+    bottom: 35px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
 
-  
+@media (max-width: 1199px) {
+  .earnings .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings .earning-vertical-align .earnings-content {
+    position: relative;
+    left: 500px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
 
+@media (max-width: 991px) {
+  .earnings .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings .earning-vertical-align .earnings-content {
+    position: relative;
+    left: 370px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .hero1-text {
+    font-size: 33px;
+  }
+  .btn-1 {
+    width: 130px !important;
+    font-size: 17px;
+  }
+}
 
-                    @media (min-width: 768px) {
-                      .earnings .earning-vertical-align {
-                        padding: 0;
-                        position: absolute;
-                        display: table;
-                        height: 100%; }
-                        .earnings .earning-vertical-align .earnings-content {
-                          position: relative;
-                          left: 600px;
-                          display: table-cell;
-                          vertical-align: middle; } }
+.earnings .earnings-content p {
+  margin-bottom: 30px;
+}
 
+@media (max-width: 767px) {
+  .earnings .earnings-content {
+    /* margin: 15% 0 0 0; */
+    margin: auto;
+    text-align: center !important;
+  }
+  .earnings .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings .earning-vertical-align .earnings-content {
+    position: relative;
+    left: 0px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
 
-  .earnings .earnings-content p {
-    margin-bottom: 30px; }
-  @media (max-width: 767px) {
-    .earnings .earnings-content {
-      /* margin: 15% 0 0 0; */
-      margin: auto;
+@media (max-width: 343px) {
+  .earnings .earnings-content {
+    margin: 0 !important;
+  }
+}
 
-      text-align: center !important; } }
-  @media (max-width: 343px) {
-    .earnings .earnings-content {
-      margin: 0 !important; } }
-  @media (max-width: 543px) {
-    .earnings .earnings-content a {
-      display: block; } }
-  @media (max-width: 767px) {
-    
-    .earnings {
-      background-image: url(./pages/img/hero-notext.png);
-      height: 0;
-      padding-bottom: 143%; } }
-     
+@media (max-width: 543px) {
+  .earnings .earnings-content a {}
+}
+
+@media (max-width: 767px) {
+  .earnings .earning-vertical-align {
+    left: 0px;
+  }
+  .earnings {
+    background-image: url(./pages/img/hero-notext.png);
+    height: 0;
+    padding-bottom: 143%;
+  }
+  .hero1-text {
+    font-size: 43px;
+  }
+  .btn-1 {
+    width: 180px !important;
+    font-size: 25px;
+  }
+}
