@@ -9,4 +9,4 @@ function BrandProfile() {
     );
 }
 
-export default BrandProfile;
+export default BrandProfile; 
