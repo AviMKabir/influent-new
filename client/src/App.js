@@ -5,6 +5,7 @@ import setAuthToken from './utils/setAuthToken';
 import { setCurrentUser, logoutUser } from './actions/authActions';
 import { Provider } from 'react-redux';
 import store from './store';
+import ProfileComponent from './pages/ProfileComponent'
 
 import './App.css';
 
@@ -14,8 +15,8 @@ import RegisterBrand from "./pages/RegisterBrand";
 import LoginInfluencer from "./pages/LoginInfluencer";
 import LoginBrand from "./pages/LoginBrand";
 import Market from "./pages/Market";
-import BrandProfile from "./pages/BrandProfile";
-import Dashboard from './pages/dashboard/Dashboard';
+import Ads from "./pages/ads"
+import PrivateRoute from './pages/private-route/PrivateRoute'
 
 
 if(localStorage.jwtToken){
@@ -48,9 +49,10 @@ class App extends Component {
           <Route exact path="/logininf" component={LoginInfluencer} />
           <Route exact path="/loginbrand" component={LoginBrand} />
           <Route exact path="/market" component={Market} />
-          <Route exact path="/profile" component={BrandProfile} />
           <Switch>
-            <Route exact path="/dashboard" component={Dashboard} />
+
+            <PrivateRoute exact path="/profile" component={ProfileComponent} />
+
           </Switch>
         </div>
       </Router>
