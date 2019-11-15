@@ -31,6 +31,12 @@ html, body {
   background: white !important;
 }
 
+.modal-content {
+
+background: rgba(230, 213, 238, 0.979);
+
+}
+
 .navbar {
 
   padding-top: 0;

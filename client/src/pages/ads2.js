@@ -21,7 +21,7 @@ class Ads extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Influencer Profile
+        <Title>available products
         </Title>
         {this.state.friends.map(friend => (
           <FriendCard

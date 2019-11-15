@@ -1,11 +1,12 @@
 .wrapper {
-  padding-top: 50px;
-  background: #ECEFF1;
+  padding-top: 20px;
+  background: #B3E4C7;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
-  padding: 20px;
+  padding: 10px;
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+  font-family: "ProximaNovaAltLight";
 }

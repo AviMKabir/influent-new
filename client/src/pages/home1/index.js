@@ -1,4 +1,5 @@
 import React from "react";
+
 import Logo from "../img/influent-logo-vector-2.svg";
 // eslint-disable-next-line 
 import Hero from "../img/hero-notext.png"
@@ -34,7 +35,7 @@ function About() {
               <h1 className="hero1-text"><span className="erato-italic">take control</span> in the</h1>
               <h1 className="hero1-text">new age of e-commerce</h1>
 ​
-              <a className="btn btn-1" href="/"> get started </a>
+              <a className="btn btn-1" href="/" data-toggle="modal" data-target="#myModal"> get started </a>
             </div>
           </div>
         </div>
@@ -110,6 +111,43 @@ function About() {
           <img className="foot" src={Logo} alt="" />
         
       </div>
+
+
+
+{/* <!-- Modal --> */}
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    {/* <!-- Modal content--> */}
+    <div class="modal-content">
+
+  
+     
+      <div class="modal-body">
+      <div className="">
+                    <div className="">
+                        <div className="">
+                            <div className="text-center">
+
+                                <h1 className="proxima">register</h1>
+                                <p className="lead">are you a brand or an influencer?</p>
+                                <p className="lead">
+                                    <a href="/loginbrand"><button className="btn-submit " >brand</button></a>
+                                    <br></br>
+                                    <a href="/logininf"><button className="btn-submit">influencer</button></a>
+                                </p>
+                         
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      </div>
+     
+    </div>
+
+  </div>
+</div>
 ​
 ​
     </div>

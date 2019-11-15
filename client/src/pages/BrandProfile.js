@@ -19,11 +19,11 @@ class BrandProfile extends Component {
                 <div className="welcome-user">
                     <div className="text-center">
                         <h4>
-                            <b>Welcome, </b> {user.name.split(" ")[0]}
+                            <b>welcome, </b> {user.name.split(" ")[0]}
                          
                         </h4>
-                        <button className="btn "  onClick={this.onLogoutClick}>
-                            Logout
+                        <button className="btn btn-submit"  onClick={this.onLogoutClick}>
+                            logout
                         </button>
                     </div>
                 </div>

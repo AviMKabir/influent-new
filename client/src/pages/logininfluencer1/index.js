@@ -58,7 +58,7 @@ class LoginInfluencer extends Component {
                 <div >
                     <div className="text-center  p-5">
                         <Link to="/" className="btn-">
-                            Back to home
+                            back to home
                         </Link>
                         <div className="" >
                             <h4 className  = "proxima head-1">

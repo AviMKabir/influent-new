@@ -26,6 +26,28 @@ html, body {
   background: white;
 }
 
+.proxima {
+
+  font-family: 'ProximaNovaBold';
+  color: white;
+
+
+}
+
+.page-bg-bothlogins {
+
+  height: 100vh;
+  background-color: #E6D5EE;
+
+
+}
+
+.lead {
+
+  color: white;
+
+}
+
 .welcome-user {
 
   margin-top: 15px;
@@ -102,6 +124,22 @@ h1, h2, h3, h4 {
   color: #FFF;
   background: #41c0a9;
 }
+
+.btn-submit {
+  font-family: 'ProximaNovaBold';
+  font-size: 16px;
+  padding: 6px 45px;
+  color: #FFF;
+  border-radius: 11px;
+  background: #B2E5C6;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-submit:hover {
+  color: #222;
+  background: #B2E5C6;
+}
+
 
 .earnings {
   background-image: url(./pages/img/hero-notext.png);
@@ -218,4 +256,31 @@ h1, h2, h3, h4 {
     width: 180px !important;
     font-size: 25px;
   }
+}
+
+.welcome-user{
+  background: #F7D2AC;
+  margin: 0;
+  padding: 2%;
+}
+​
+.btn2 {
+  font-family: 'ProximaNovaBold';
+  font-size: 25px;
+  padding: 3px 25px;
+  color: #FFF;
+  border-radius: 11px;
+  background: #259782;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;
+  width: 180px !important;
+}
+
+
+.jumbotron{
+
+
+  background: #E6D5EE;
+
+
 }

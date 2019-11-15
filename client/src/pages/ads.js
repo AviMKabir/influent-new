@@ -21,7 +21,7 @@ class Ads extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Friends List</Title>
+        <Title>your listings</Title>
         {this.state.friends.map(friend => (
           <FriendCard
             removeFriend={this.removeFriend}
