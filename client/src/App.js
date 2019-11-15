@@ -6,6 +6,8 @@ import { setCurrentUser, logoutUser } from './actions/authActions';
 import { Provider } from 'react-redux';
 import store from './store';
 import ProfileComponent from './pages/ProfileComponent'
+import InfluencerProfile from './pages/InfluencerProfile'
+
 
 import './App.css';
 
@@ -14,8 +16,11 @@ import RegisterInfluencer from "./pages/RegisterInfluencer";
 import RegisterBrand from "./pages/RegisterBrand";
 import LoginInfluencer from "./pages/LoginInfluencer";
 import LoginBrand from "./pages/LoginBrand";
+import BothLogins from "./pages/BothLogins";
+import BothRegisters from "./pages/BothRegisters";
+
+
 import Market from "./pages/Market";
-import Ads from "./pages/ads"
 import PrivateRoute from './pages/private-route/PrivateRoute'
 
 
@@ -48,10 +53,14 @@ class App extends Component {
           <Route exact path="/registerbrand" component={RegisterBrand} />
           <Route exact path="/logininf" component={LoginInfluencer} />
           <Route exact path="/loginbrand" component={LoginBrand} />
+          <Route exact path="/login" component={BothLogins} />
+          <Route exact path="/register" component={BothRegisters} />
           <Route exact path="/market" component={Market} />
           <Switch>
 
             <PrivateRoute exact path="/profile" component={ProfileComponent} />
+            <PrivateRoute exact path="/influencerprofile" component={InfluencerProfile} />
+
 
           </Switch>
         </div>
