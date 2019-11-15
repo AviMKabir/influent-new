@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: local('ProximaNovaBold'), url(../../fonts/ProximaNovaBold.otf) format('opentype');
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page-bg-loginbrand {
+
+    height: 100vh;
+    background-color: rgba(179, 211, 233, 0.719) ;
+
+
+  }
+
+  .brand-register-p {
+
+
+    font-family: 'ProximaNovaBold';
+color: #222;
+
+
+  }
+
+  a {
+    color: rgb(231, 149, 146);
+  }
+
+  a:hover {
+    color: rgb(223, 134, 130);
+  }
+
+  
+
+input {
+
+  outline: 0;
+  background: #f2f2f2;
+  width: 65%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #999999;
+
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 5px #B3E4C7;
+
+  border: 1px solid #B3E4C7;
+}
+
+.btn-submit {
+  font-family: 'ProximaNovaBold';
+  font-size: 16px;
+  padding: 6px 45px;
+  color: #FFF;
+  border-radius: 11px;
+  background: #B2E5C6;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-submit:hover {
+  color: #222;
+  background: #B2E5C6;
+}
+
+.proxima {
+
+  font-family: 'ProximaNovaBold';
+  color: white;
+
+
+}
+
+.head-1 {
+
+  font-size: 30px;
+
+}

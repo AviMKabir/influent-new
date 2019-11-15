@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="1" dy="2" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2235294 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+  </defs>
+  <g id="monetization_on-24px">
+    <g filter="url(#filter_1)">
+      <path d="M83.3333 0C37.3333 0 0 37.3333 0 83.3333C0 129.333 37.3333 166.667 83.3333 166.667C129.333 166.667 166.667 129.333 166.667 83.3333C166.667 37.3333 129.333 0 83.3333 0Z" transform="translate(16.66666 16.66669)" id="Path" fill="#B3E4C7" stroke="none" />
+    </g>
+    <path d="M49.5 117.417L49.5 133.333L27.25 133.333L27.25 117.25C13 114.25 0.916667 105.083 0 88.9167L16.3333 88.9167C17.1667 97.6667 23.1667 104.5 38.4167 104.5C54.75 104.5 58.4167 96.3333 58.4167 91.25C58.4167 84.3333 54.75 77.8333 36.1667 73.4167C15.5 68.4167 1.33333 59.9167 1.33333 42.8333C1.33333 28.5 12.9167 19.1667 27.25 16.0833L27.25 0L49.5 0L49.5 16.25C65 20 72.75 31.75 73.25 44.5L56.9167 44.5C56.5 35.25 51.5833 28.9167 38.4167 28.9167C25.9167 28.9167 18.4167 34.5833 18.4167 42.5833C18.4167 49.5833 23.8333 54.1667 40.6667 58.5C57.5 62.8333 75.5 70.0833 75.5 91.0833C75.4167 106.333 64 114.667 49.5 117.417Z" transform="translate(62.25 33.33331)" id="Path" fill="#FFFFFF" stroke="none" />
+  </g>
+</svg>

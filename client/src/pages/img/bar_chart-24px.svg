@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="257px" height="257px" viewBox="0 0 257 257" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="bar_chart-24px">
+    <path d="M0 0L257 0L257 257L0 257L0 0Z" id="Path" fill="none" stroke="none" />
+    <path d="M0 0L32.125 0L32.125 104.942L0 104.942L0 0Z" transform="translate(53.54169 98.51666)" id="Path" fill="#B7DBF3" fill-opacity="0.7411765" stroke="none" />
+    <path d="M1.90218e-14 0L29.9833 0L29.9833 149.917L0 149.917L1.90218e-14 0Z" transform="translate(113.5083 53.54169)" id="Path" fill="#B7DBF3" stroke="none" />
+    <path d="M0 0L29.9833 0L29.9833 64.25L0 64.25L0 0Z" transform="translate(173.475 139.2084)" id="Path" fill="#B7DBF3" fill-opacity="0.4836512" stroke="none" />
+  </g>
+</svg>

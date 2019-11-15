@@ -1,0 +1,24 @@
+[
+
+  {
+    "id": 2,
+    "name": "Gucci Shoulder Bag",
+    "image": "https://cdn2.jomashop.com/media/catalog/product/g/u/gucci-gg-marmont-small-shoulder-bag--black-447632_9qibt_1000.jpg",
+    "occupation": "Gucci",
+    "location": "gucci@hotmail.com"
+  },
+  {
+    "id": 3,
+    "name": "Gucci Slides",
+    "image": "https://eyeconicwear.com/wp-content/uploads/2017/03/EyeConicWear-gucci-web-slide-sandal-gucci-pursuit-72-rubber-slides-white-2.jpg",
+    "occupation": "Gucci",
+    "location": "gucci@hotmail.com"
+  },
+  {
+    "id": 4,
+    "name": "Gucci Wool Coat",
+    "image": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1553280306/569221_ZHW03_6482_001_100_0000_Light-Wool-coat.jpg",
+    "occupation": "Gucci",
+    "location": "gucci@hotmail.com"
+  }
+]

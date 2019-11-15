@@ -1,86 +1,58 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "Louis Vuitton Handbag",
+    "image": "https://shop.r10s.jp/fuga-shop/cabinet/2016-15/5000001884101474_1.jpg",
+    "occupation": "Louis Vuitton",
+    "location": "louisvuitton@gmail.com"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Gucci Shoulder Bag",
+    "image": "https://cdn2.jomashop.com/media/catalog/product/g/u/gucci-gg-marmont-small-shoulder-bag--black-447632_9qibt_1000.jpg",
+    "occupation": "Gucci",
+    "location": "gucci@hotmail.com"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Gucci Slides",
+    "image": "https://eyeconicwear.com/wp-content/uploads/2017/03/EyeConicWear-gucci-web-slide-sandal-gucci-pursuit-72-rubber-slides-white-2.jpg",
+    "occupation": "Gucci",
+    "location": "gucci@hotmail.com"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "name": "Gucci Wool Coat",
+    "image": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1553280306/569221_ZHW03_6482_001_100_0000_Light-Wool-coat.jpg",
+    "occupation": "Gucci",
+    "location": "gucci@hotmail.com"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "name": "Rolex Oyster Perpetual",
+    "image": "https://cdn2.jomashop.com/media/catalog/product/r/o/rolex-oyster-perpetual-18k-yellow-gold-diamond-men_s-automatic-president-watch-228238bkdp.jpg",
+    "occupation": "Rolex",
+    "location": "rolexwatches@comcast.net"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "name": "Métallique Eau de Parfum",
+    "image": "https://cdn2.tendance-parfums.com/media/catalog/product/cache/d0fec626c1688806499f678a41ef4866/m/e/metallique-eau-de-parfum-tom-ford-50-ml.jpg",
+    "occupation": "Tom Ford",
+    "location": "tommyfordtrucks@gmail.com"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "All About Shadow 8-Pan Palette",
+    "image": "https://www.sephora.com/productimages/sku/s1719244-main-zoom.jpg",
+    "occupation": "Clinique",
+    "location": "clinic@outlook.com"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
-  },
-  {
-    "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
-  },
-  {
-    "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
-  },
-  {
-    "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
-  },
-  {
-    "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "name": "Peach Detox Tea",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71SJMCx0ZvL._SL1500_.jpg",
+    "occupation": "Yogi",
+    "location": "yogibear@gmail.com"
   }
 ]

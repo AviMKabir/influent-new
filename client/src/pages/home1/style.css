@@ -1,0 +1,330 @@
+/* aliasing */
+
+@font-face {
+  font-family: 'EratoBold';
+  src: local('EratoBold'), url(../../fonts/EratoBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'EratoBoldIta';
+  src: local('EratoBoldIta'), url(../../fonts/EratoBoldIta.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: local('ProximaNovaBold'), url(../../fonts/ProximaNovaBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaAltLight';
+  src: local('ProximaNovaAltLight'), url(../../fonts/ProximaNovaAltLight.otf) format('opentype');
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background: white !important;
+}
+
+.navbar {
+
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+
+.erato-italic {
+  font-family: 'EratoBoldIta' !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'EratoBold'
+}
+
+.sign-in {
+  color: #222;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #B3E4C7;
+}
+
+.get-started {
+  /* background: url(./pages/img/hero-vector-pngx2.png); */
+  background: #B3E4C7;
+  /* background-size: cover; */
+  min-height: 600px;
+}
+
+.hero1-text {
+  color: white;
+  line-height: 0.85;
+  font-size: 43px;
+  text-shadow: 1px 3px 4px #0000005d;
+}
+
+.btn-1 {
+  font-family: 'ProximaNovaBold';
+  font-size: 25px;
+  padding: 3px 25px;
+  color: #FFF;
+  border-radius: 11px;
+  background: #259782;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;
+  width: 180px !important;
+}
+
+.btn-1:hover {
+  color: #FFF;
+  background: #41c0a9;
+}
+
+.earnings {
+  background-image: url(../img/hero-notext.png);
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding-bottom: 37.5%;
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  .hero1-text {
+    line-height: 0.85;
+  }
+  .earnings .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings .earning-vertical-align .earnings-content {
+    position: relative;
+    left: 600px;
+    bottom: 35px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 1199px) {
+  .earnings .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings .earning-vertical-align .earnings-content {
+    position: relative;
+    left: 500px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 991px) {
+  .earnings .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings .earning-vertical-align .earnings-content {
+    position: relative;
+    left: 370px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .hero1-text {
+    font-size: 33px;
+  }
+  .btn-1 {
+    width: 130px !important;
+    font-size: 17px;
+  }
+}
+
+.earnings .earnings-content p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .earnings .earnings-content {
+    /* margin: 15% 0 0 0; */
+    margin: auto;
+    text-align: center !important;
+  }
+  .earnings .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings .earning-vertical-align .earnings-content {
+    position: relative;
+    left: 0px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 343px) {
+  .earnings .earnings-content {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 543px) {
+  .earnings .earnings-content a {}
+}
+
+@media (max-width: 767px) {
+  .earnings .earning-vertical-align {
+    left: 0px;
+  }
+  .earnings {
+    background-image: url(../img/hero-notext.png);
+    height: 0;
+    padding-bottom: 143%;
+  }
+  .hero1-text {
+    font-size: 43px;
+  }
+  .btn-1 {
+    width: 180px !important;
+    font-size: 25px;
+  }
+}
+
+.mission {
+  margin: 10% auto 3% auto;
+   font-family: "ProximaNovaAltLight";
+   
+ }
+ .wecreated {
+   z-index: 4;
+   width: 1229px;
+   height: 266px;
+   color: #222222;
+   font-family: "ProximaNovaAltLight";
+   font-size: 29px;
+   font-weight: 200;
+   line-height: 39px;
+   text-align: center;
+   margin-bottom: 10%;
+ }
+ .iphone{
+   z-index: 5;
+   width: 100%;
+   height: 50%;
+ }
+ .cash {
+   z-index: 5;
+   width: 100%;
+   height: 50%;
+   
+ }
+ .barchart {
+   z-index: 5;
+   width: 100%;
+   height: 50%;
+  
+ }
+ .iconP {
+   text-align: center;
+   width: 60%;
+   margin: 0 auto 0 auto;
+   font-family: "ProximaNovaAltLight";
+ }
+ h2 {
+   margin-bottom: 5%;
+   margin-top: 7%;
+ }
+
+.row {
+
+  margin-bottom: 0;
+  margin-top: 0;
+
+
+}
+
+ .influencerwhyimg{
+   background-image: url(http://api-lunacy.icons8.com/api/assets/08b90d4d-4dc4-472b-be00-d68e47051b4f/influencer-why.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   height: 570px;
+   margin-bottom: 0;
+ }
+ .getstarted1{
+   text-align: center;
+   position: absolute;
+   top: 65%;
+   left: 82%;
+ }
+ .brandwhyimg{
+   margin-top: 0;
+   background-image: url(http://api-lunacy.icons8.com/api/assets/655fc6dc-dea9-4094-8de2-8194a30a0837/brand-why.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   height: 570px;
+   
+ }
+ .getstarted2{
+   text-align: center;
+   position: absolute;
+   top: 75%;
+   left: 50%;
+ }
+ .startbtn {
+   font-family: 'ProximaNovaBold';
+   font-size: 25px;
+   padding: 3px 25px;
+   color: #ffffff;
+   border-radius: 11px;
+   background: #f9c9c7;
+   transition: all 0.3s ease 0s;
+   margin-top: 10px;
+   width: 180px !important;
+ }
+ .startbtn:hover{
+   color: whitesmoke;
+   background: #DDC4E8;
+ }
+ .foot {
+   margin: 7% auto 2% auto;
+ }

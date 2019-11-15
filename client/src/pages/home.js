@@ -2,6 +2,8 @@ import React from "react";
 import Logo from "./img/influent-logo-vector-2.svg";
 // eslint-disable-next-line 
 import Hero from "./img/hero-notext.png"
+import '../App.css';
+
 
 
 
@@ -16,7 +18,7 @@ function About() {
 
   <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-                <a className="nav-link sign-in" href="/"><h4>sign in</h4></a>
+                <a className="nav-link sign-in" href="/login"><h4>sign in</h4></a>
             </li>
         </ul>
 

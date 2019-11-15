@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.5 1h-8C6.12 1 5 2.12 5 3.5v17C5 21.88 6.12 23 7.5 23h8c1.38 0 2.5-1.12 2.5-2.5v-17C18 2.12 16.88 1 15.5 1zm-4 21c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-4H7V4h9v14z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="175px" height="175px" viewBox="0 0 175 175" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="phone_iphone-24px">
+    <path d="M0 0L175 0L175 175L0 175L0 0Z" id="Path" fill="none" stroke="none" />
+    <path d="M76.5625 0L18.2292 0C8.16667 0 0 8.16667 0 18.2292L0 142.188C0 152.25 8.16667 160.417 18.2292 160.417L76.5625 160.417C86.625 160.417 94.7917 152.25 94.7917 142.188L94.7917 18.2292C94.7917 8.16667 86.625 0 76.5625 0Z" transform="translate(36.45833 7.291687)" id="Path" fill="#D9BDE3" stroke="none" />
+    <path d="M10.9375 21.875C4.88542 21.875 0 16.9896 0 10.9375C0 4.88542 4.88542 0 10.9375 0C16.9896 0 21.875 4.88542 21.875 10.9375C21.875 16.9896 16.9896 21.875 10.9375 21.875Z" transform="translate(72.91666 138.5416)" id="Path" fill="#FFFFFF" stroke="none" />
+    <path d="M65.625 102.083L0 102.083L0 0L65.625 0L65.625 102.083Z" transform="translate(51.04167 29.16669)" id="Path" fill="#FFFFFF" stroke="none" />
+  </g>
+</svg>

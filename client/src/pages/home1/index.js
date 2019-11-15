@@ -1,0 +1,118 @@
+import React from "react";
+import Logo from "../img/influent-logo-vector-2.svg";
+// eslint-disable-next-line 
+import Hero from "../img/hero-notext.png"
+import "./style.css";
+import Iphone from "../img/phone_iphone-24px.svg"
+import BarChart from "../img/bar_chart-24px.svg"
+import Cash from "../img/monetization_on-24px.svg"
+
+
+
+function About() {
+  return (
+    <div>
+​
+      <nav className="navbar ">
+        <a className="navbar-brand" href="/">
+          <img src={Logo} width="150" alt="" />
+        </a>
+​
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <a className="nav-link sign-in" href="/login"><h4>sign in</h4></a>
+          </li>
+        </ul>
+​
+      </nav>
+​
+​
+      <div className="earnings clearfix">
+        <div className="container">
+          <div className="col-sm-12 col-xs-12 earning-vertical-align">
+            <div className="earnings-content">
+              <h1 className="hero1-text"><span className="erato-italic">take control</span> in the</h1>
+              <h1 className="hero1-text">new age of e-commerce</h1>
+​
+              <a className="btn btn-1" href="/"> get started </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <h3 className="mission">our mission</h3>
+        </div>
+        <div className="row">
+          {/* our mission paragraph */}
+          <p className="wecreated">we created influent to seamelessy connect brands and influencers. in order to do this, we empower brands to market themselves the way they see fit to prospective influencers, who in turn can view potential brands with which to work. within this propreitary marketplace is where the magic happens, innovative new products get paired with the bleeding edge of social networking personalities, to stay one step ahead in the new age of e-commerce.</p>
+        </div>
+        {/* icon row  */}
+        <div className="row">
+          <div className="col-4">
+            <img className="iphone" src={Iphone} alt="iphone icon"
+            />
+            <p className="iconP">connect with both influencers and brands looking to advertise and showcase their products</p>
+          </div>
+​
+          <div className="col-4">
+            <img className="cash" src={Cash} alt="money icon"
+            />
+            <p className="iconP">watch your profits grow as followers engage with your advertisement.</p>
+          </div>
+​
+          <div className="col-4">
+            <img className="barchart" src={BarChart} alt="barchart icon"
+            />
+            <p className="iconP">exposure through high engagement influencers increases the reach of your brand, creating sustainable growth</p>
+          </div>
+        </div>
+        {/* //container div */}
+      </div>
+​
+​
+      <div class="row">
+        <div className="col-12">
+          <h2 className="text-center"><span className="erato-italic">why in</span>fluent?</h2>
+        </div>
+      </div>
+​
+​
+      {/* heroes */}
+      {/* influencer  */}
+      <div className="row">
+        <div className="col-12">
+​
+​
+          <div className="influencerwhyimg">
+            <div className="getstarted1">
+              <a href="/registerinf" className="btn startbtn">get started</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+​
+      {/* brand  */}
+      <div className="row">
+        <div className="col-12">
+          <div className="brandwhyimg">
+            <div className="getstarted2">
+              <a href="/registerbrand" className="btn startbtn">get started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+​
+​
+      <div className="row">
+      
+          <img className="foot" src={Logo} alt="" />
+        
+      </div>
+​
+​
+    </div>
+  );
+}
+export default About;

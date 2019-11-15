@@ -23,6 +23,13 @@ html, body {
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  background: white;
+}
+
+.welcome-user {
+
+  margin-top: 15px;
+
 }
 
 .erato-italic {

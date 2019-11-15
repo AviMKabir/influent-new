@@ -9,13 +9,16 @@ import ProfileComponent from './pages/ProfileComponent'
 import InfluencerProfile from './pages/InfluencerProfile'
 
 
-import './App.css';
+// import './App.css';
+// import './App2.css';
 
-import Home from "./pages/home"
-import RegisterInfluencer from "./pages/RegisterInfluencer";
-import RegisterBrand from "./pages/RegisterBrand";
-import LoginInfluencer from "./pages/LoginInfluencer";
-import LoginBrand from "./pages/LoginBrand";
+
+
+import Home from "./pages/home1"
+import RegisterInfluencer from "./pages/registerinfluencer1";
+import RegisterBrand from "./pages/registerbrand1";
+import LoginInfluencer from "./pages/logininfluencer1";
+import LoginBrand from "./pages/loginbrand1";
 import BothLogins from "./pages/BothLogins";
 import BothRegisters from "./pages/BothRegisters";
 
