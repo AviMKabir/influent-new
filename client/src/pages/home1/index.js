@@ -14,6 +14,7 @@ function About() {
   return (
     <div>
 ​
+{/* navbar */}
       <nav className="navbar ">
         <a className="navbar-brand" href="/">
           <img src={Logo} width="150" alt="" />
@@ -27,7 +28,7 @@ function About() {
 ​
       </nav>
 ​
-​
+{/* ​hero */}
       <div className="earnings clearfix">
         <div className="container">
           <div className="col-sm-12 col-xs-12 earning-vertical-align">
@@ -40,43 +41,55 @@ function About() {
           </div>
         </div>
       </div>
+
+
+{/* mission */}
       <div className="container">
         <div className="row">
-          <h3 className="mission">our mission</h3>
+          <h3 className="mission erato-italic">our mission</h3>
         </div>
         <div className="row">
           {/* our mission paragraph */}
-          <p className="wecreated">we created influent to seamelessy connect brands and influencers. in order to do this, we empower brands to market themselves the way they see fit to prospective influencers, who in turn can view potential brands with which to work. within this propreitary marketplace is where the magic happens, innovative new products get paired with the bleeding edge of social networking personalities, to stay one step ahead in the new age of e-commerce.</p>
+          <p className="wecreated">we created <span className="erato-italic">in</span><span className="erato">fluent</span>  to seamelessy connect brands and influencers. in order to do this, we empower brands to market themselves the way they see fit to prospective influencers, who in turn can view potential brands with which to work. within this propreitary marketplace is where the magic happens, innovative new products get paired with the bleeding edge of social networking personalities, to stay one step ahead in the new age of e-commerce.</p>
         </div>
-        {/* icon row  */}
-        <div className="row">
-          <div className="col-4">
+       
+        {/* //container div for icons*/}
+      </div>
+      <div className="container icons">
+
+ {/* icon row  */}
+ <div className="row ">
+          <div className="col-4 ">
             <img className="iphone" src={Iphone} alt="iphone icon"
             />
             <p className="iconP">connect with both influencers and brands looking to advertise and showcase their products</p>
           </div>
 ​
-          <div className="col-4">
+          <div className="col-4 ">
             <img className="cash" src={Cash} alt="money icon"
             />
             <p className="iconP">watch your profits grow as followers engage with your advertisement.</p>
           </div>
 ​
-          <div className="col-4">
+          <div className="col-4 ">
             <img className="barchart" src={BarChart} alt="barchart icon"
             />
             <p className="iconP">exposure through high engagement influencers increases the reach of your brand, creating sustainable growth</p>
           </div>
         </div>
-        {/* //container div */}
-      </div>
-​
-​
-      <div class="row">
+
+        <div class="row">
         <div className="col-12">
           <h2 className="text-center"><span className="erato-italic">why in</span>fluent?</h2>
         </div>
       </div>
+
+      </div>
+
+
+​
+​
+    
 ​
 ​
       {/* heroes */}
@@ -85,9 +98,17 @@ function About() {
         <div className="col-12">
 ​
 ​
-          <div className="influencerwhyimg">
+          <div className="influencerwhyimg ">
             <div className="getstarted1">
               <a href="/registerinf" className="btn startbtn">get started</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-12">
+          <div className="brandwhyimg">
+            <div className="getstarted2">
+              <a href="/registerbrand" className="btn startbtn">get started</a>
             </div>
           </div>
         </div>
@@ -96,13 +117,7 @@ function About() {
 ​
       {/* brand  */}
       <div className="row">
-        <div className="col-12">
-          <div className="brandwhyimg">
-            <div className="getstarted2">
-              <a href="/registerbrand" className="btn startbtn">get started</a>
-            </div>
-          </div>
-        </div>
+       
       </div>
 ​
 ​
@@ -116,7 +131,7 @@ function About() {
 
 {/* <!-- Modal --> */}
 <div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
 
     {/* <!-- Modal content--> */}
     <div class="modal-content">
@@ -132,9 +147,9 @@ function About() {
                                 <h1 className="proxima">register</h1>
                                 <p className="lead">are you a brand or an influencer?</p>
                                 <p className="lead">
-                                    <a href="/loginbrand"><button className="btn-submit " >brand</button></a>
+                                    <a href="/registerbrand"><button className="btn-submit " >brand</button></a>
                                     <br></br>
-                                    <a href="/logininf"><button className="btn-submit">influencer</button></a>
+                                    <a href="/loginbrand"><button className="btn-submit">influencer</button></a>
                                 </p>
                          
 

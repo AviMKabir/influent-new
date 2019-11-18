@@ -42,10 +42,15 @@ background: rgba(230, 213, 238, 0.979);
   padding-top: 0;
   padding-bottom: 0;
 
+
 }
 
 .erato-italic {
   font-family: 'EratoBoldIta' !important;
+}
+
+.erato {
+  font-family: 'EratoBold' !important;
 }
 
 .App {
@@ -230,6 +235,12 @@ h1, h2, h3, h4 {
     width: 180px !important;
     font-size: 25px;
   }
+
+  .icons{
+
+    margin-top: 180px;
+    
+     }
 }
 
 .mission {
@@ -334,3 +345,4 @@ h1, h2, h3, h4 {
  .foot {
    margin: 7% auto 2% auto;
  }
+
