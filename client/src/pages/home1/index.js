@@ -15,7 +15,7 @@ function About() {
     <div>
 ​
 {/* navbar */}
-      <nav className="navbar ">
+      <div className="navbar ">
         <a className="navbar-brand" href="/">
           <img src={Logo} width="150" alt="" />
         </a>
@@ -26,7 +26,7 @@ function About() {
           </li>
         </ul>
 ​
-      </nav>
+      </div>
 ​
 {/* ​hero */}
       <div className="earnings clearfix">
