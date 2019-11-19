@@ -39,8 +39,8 @@ background: rgba(230, 213, 238, 0.979);
 
 .navbar {
 
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 10;
+  padding-bottom: 10;
 
 
 }
@@ -286,6 +286,7 @@ h1, h2, h3, h4 {
    margin: 0 auto 0 auto;
    font-family: "ProximaNovaAltLight";
  }
+
  h2 {
    margin-bottom: 5%;
    margin-top: 7%;
@@ -339,12 +340,27 @@ h1, h2, h3, h4 {
    background: #f9c9c7;
    transition: all 0.3s ease 0s;
    margin-top: 10px;
-   width: 180px !important;
+   width: 180px ;
  }
  .startbtn:hover{
    color: whitesmoke;
    background: #DDC4E8;
  }
+ .startbtn2 {
+  font-family: 'ProximaNovaBold';
+  font-size: 25px;
+  padding: 3px 25px;
+  color: #ffffff;
+  border-radius: 11px;
+  background: #259782;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;
+  width: 180px ;
+}
+.startbtn2:hover{
+  color: whitesmoke;
+  background: #DDC4E8;
+}
  .foot {
    margin: 7% auto 2% auto;
  }

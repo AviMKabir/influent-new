@@ -15,6 +15,11 @@
   src: local('ProximaNovaBold'), url(./fonts/ProximaNovaBold.otf) format('opentype');
 }
 
+@font-face {
+  font-family: 'ProximaNovaAltLight';
+  src: local('ProximaNovaAltLight'), url(./fonts/ProximaNovaAltLight.otf) format('opentype');
+}
+
 html, body {
   width: 100%;
   height: 100%;
@@ -90,6 +95,11 @@ h1, h2, h3, h4 {
   transition: 0.5s;
 }
 
+.nav-item{
+
+
+}
+
 .nav-link:hover {
   color: #B3E4C7;
 }
@@ -106,6 +116,24 @@ h1, h2, h3, h4 {
   line-height: 0.85;
   font-size: 43px;
   text-shadow: 1px 3px 4px #0000005d;
+}
+
+.hero2-text {
+  color: white;
+  line-height: 0.85;
+  font-size: 43px;
+  /* text-shadow: 1px 3px 4px #0000005d; */
+  visibility: hidden;
+}
+
+.hero2-text-p {
+  font-family: 'ProximaNovaAltLight';
+
+  color: white;
+  line-height: 0.85;
+  font-size: 43px;
+  /* text-shadow: 1px 3px 4px #0000005d; */
+  visibility: hidden;
 }
 
 .btn-1 {
@@ -283,4 +311,348 @@ h1, h2, h3, h4 {
   background: #E6D5EE;
 
 
+}
+
+.the-logo {
+
+  margin-top: 0;
+margin-bottom: 0;
+
+}
+
+/* influencer hero */
+
+.earnings-2 {
+  /* background-image: url(./pages/img/influencer-why-1.png); */
+  background: url(http://api-lunacy.icons8.com/api/assets/08b90d4d-4dc4-472b-be00-d68e47051b4f/influencer-why.png);
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding-bottom: 37.5%;
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  .hero2-text {
+    line-height: 0.85;
+  }
+  .earnings-2 .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings-2 .earning-vertical-align .earnings-2-content {
+    position: relative;
+    left: 930px;
+    top: 10px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 1199px) {
+  .earnings-2 .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings-2 .earning-vertical-align .earnings-2-content {
+    position: relative;
+    left: 750px;
+    bottom: 30px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 991px) {
+  .earnings-2 .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings-2 .earning-vertical-align .earnings-2-content {
+    position: relative;
+    left: 520px;
+    bottom: 50px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .hero2-text {
+    font-size: 33px;
+  }
+  .btn-1 {
+    width: 130px !important;
+    font-size: 17px;
+  }
+
+.startbtn {
+
+  width: 130px !important;
+    font-size: 17px !important;
+
+}
+
+}
+
+.earnings-2 .earnings-2-content p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .earnings-2 .earnings-2-content {
+    /* margin: 15% 0 0 0; */
+    margin: auto;
+    text-align: center !important;
+  }
+  .earnings-2 .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings-2 .earning-vertical-align .earnings-2-content {
+    position: relative;
+    left: 0px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 343px) {
+  .earnings-2 .earnings-2-content {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 543px) {
+  .earnings-2 .earnings-2-content a {}
+}
+
+@media (max-width: 767px) {
+
+  
+
+  .wecreated {
+    z-index: 4;
+    width: 1229px;
+    height: 266px;
+    color: #222222;
+    font-family: "ProximaNovaAltLight";
+    font-size: 25px !important;
+    font-weight: 200;
+    line-height: 39px;
+    text-align: left !important;
+    margin-bottom: 10% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .iconP {
+    text-align: left !important;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    font-family: "ProximaNovaAltLight";
+  }
+
+  .earnings-2 .earning-vertical-align {
+    left: 0px;
+  }
+  .earnings-2 {
+    background-image: url(./pages/img/influencer-why-1.png);
+    height: 0;
+    padding-bottom: 143%;
+  }
+  .hero2-text {
+    font-size: 85px;
+    visibility: visible;
+  }
+  .hero2-text-p {
+    font-size: 30px;
+    visibility: visible;
+  }
+
+  .btn-1 {
+    width: 180px !important;
+    font-size: 25px;
+  }
+
+  .startbtn {
+
+    width: 180px !important;
+      font-size: 25px !important;
+  
+  }
+}
+
+
+/* brand hero */
+
+.earnings-3 {
+  /* background-image: url(./pages/img/influencer-why-1.png); */
+  background-image: url(http://api-lunacy.icons8.com/api/assets/655fc6dc-dea9-4094-8de2-8194a30a0837/brand-why.png);
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding-bottom: 37.5%;
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  .hero2-text {
+    line-height: 0.85;
+  }
+  .earnings-3 .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings-3 .earning-vertical-align .earnings-3-content {
+    position: relative;
+    left: 230px;
+    top: 90px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 1199px) {
+  .earnings-3 .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings-3 .earning-vertical-align .earnings-3-content {
+    position: relative;
+    left: 350px;
+    top: 20px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 991px) {
+  .earnings-3 .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings-3 .earning-vertical-align .earnings-3-content {
+    position: relative;
+    left: 220px;
+    top: 1px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .hero2-text {
+    font-size: 33px;
+  }
+  .btn-1 {
+    width: 130px !important;
+    font-size: 17px;
+  }
+
+.startbtn2 {
+
+  width: 130px !important;
+    font-size: 17px !important;
+
+}
+
+}
+
+.earnings-3 .earnings-3-content p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .earnings-3 .earnings-3-content {
+    /* margin: 15% 0 0 0; */
+    margin: auto;
+    text-align: center !important;
+  }
+  .earnings-3 .earning-vertical-align {
+    padding: 0;
+    position: absolute;
+    display: table;
+    height: 100%;
+  }
+  .earnings-3 .earning-vertical-align .earnings-3-content {
+    position: relative;
+    left: 0px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 343px) {
+  .earnings-3 .earnings-3-content {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 543px) {
+  .earnings-3 .earnings-3-content a {}
+}
+
+@media (max-width: 767px) {
+
+  
+
+  .wecreated {
+    z-index: 4;
+    width: 1229px;
+    height: 266px;
+    color: #222222;
+    font-family: "ProximaNovaAltLight";
+    font-size: 25px !important;
+    font-weight: 200;
+    line-height: 39px;
+    text-align: left !important;
+    margin-bottom: 10% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .iconP {
+    text-align: left !important;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    font-family: "ProximaNovaAltLight";
+  }
+
+  .earnings-3 .earning-vertical-align {
+    left: 0px;
+  }
+  .earnings-3 {
+background: #B3E4C7;    
+height: 0;
+    padding-bottom: 143%;
+  }
+  .hero2-text {
+    font-size: 85px;
+    visibility: visible;
+  }
+  .hero2-text-p {
+    font-size: 30px;
+    visibility: visible;
+  }
+
+  .btn-1 {
+    width: 180px !important;
+    font-size: 25px;
+  }
+
+  .startbtn2 {
+
+    width: 180px !important;
+      font-size: 25px !important;
+  
+  }
 }
