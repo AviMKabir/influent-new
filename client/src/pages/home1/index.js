@@ -40,7 +40,10 @@ function About() {
               <h1 className="hero1-text"><span className="erato-italic">take control</span> of the</h1>
               <h1 className="hero1-text">new age of e-commerce</h1>
 
-              <a className="btn btn-1" href="/" data-toggle="modal" data-target="#myModal"> <span class = "text-center">get started</span> </a>
+              <a className="btn btn-1 desktop-btn" href="/" data-toggle="modal" data-target="#myModal"> <span class = "text-center">get started</span> </a>
+              <a className="btn btn-submit-2 mobile-btn" href="/" data-toggle="modal" data-target="#myModal"> <span class = "text-center">get started</span> </a>
+
+
             </div>
           </div>
         </div>
@@ -112,7 +115,9 @@ function About() {
                 <h1 className="hero2-text-p">- connect with brands</h1>
                 <h1 className="hero2-text-p">- engage your followers</h1>
                 <h1 className="hero2-text-p">- monetize your online presence</h1>
-                <a href="/registerinf" className="btn startbtn">get started</a>
+                <a href="/registerinf" className="btn startbtn desktop-btn">get started</a>
+                <a href="/registerinf" className="btn btn-submit-3 mobile-btn">get started</a>
+
               </div>
             </div>
           </div>
@@ -127,7 +132,9 @@ function About() {
                 <h1 className="hero2-text-p">- link with trending personalities</h1>
                 <h1 className="hero2-text-p">- broaden reach to new markets</h1>
                 <h1 className="hero2-text-p">- increase profits</h1>
-                <a href="/registerbrand" className="btn startbtn2">get started</a>
+                <a href="/registerbrand" className="btn startbtn2 desktop-btn">get started</a>
+                <a href="/registerbrand" className="btn btn-submit-4 mobile-btn">get started</a>
+
               </div>
             </div>
           </div>

@@ -97,10 +97,7 @@ h1, h2, h3, h4 {
   transition: 0.5s;
 }
 
-.nav-item{
 
-
-}
 
 .nav-link:hover {
   color: #B3E4C7;
@@ -123,7 +120,7 @@ h1, h2, h3, h4 {
 .hero2-text {
   color: white;
   line-height: 0.85;
-  font-size: 43px;
+  font-size: 38px;
   /* text-shadow: 1px 3px 4px #0000005d; */
   visibility: hidden;
 }
@@ -137,6 +134,15 @@ h1, h2, h3, h4 {
   /* text-shadow: 1px 3px 4px #0000005d; */
   visibility: hidden;
 }
+
+.mobile-btn {
+
+  visibility: hidden;
+
+
+}
+
+
 
 .btn-1 {
   font-family: 'ProximaNovaBold';
@@ -169,6 +175,55 @@ h1, h2, h3, h4 {
   color: #222;
   background: #B2E5C6;
 }
+
+.btn-submit-2 {
+  font-family: 'ProximaNovaBold';
+  font-size: 26px;
+  padding: 2px 25px;
+  color: #FFF;
+  border-radius: 11px;
+  background: #259782;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;;
+}
+
+.btn-submit-2:hover {
+  color: #fff;
+  background: #41c0a9;
+}
+
+.btn-submit-3 {
+  font-family: 'ProximaNovaBold';
+  font-size: 26px;
+  padding: 2px 25px;
+  color: #FFF;
+  border-radius: 11px;
+  background: #f9c9c7;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;;
+}
+
+.btn-submit-3:hover {
+  color: #fff;
+  background: #DDC4E8;
+}
+
+.btn-submit-4 {
+  font-family: 'ProximaNovaBold';
+  font-size: 26px;
+  padding: 2px 25px;
+  color: #FFF;
+  border-radius: 11px;
+  background: #259782;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;;
+}
+
+.btn-submit-4:hover {
+  color: #fff;
+  background: #DDC4E8;
+}
+
 
 
 .earnings {
@@ -267,7 +322,6 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 543px) {
-  .earnings .earnings-content a {}
 }
 
 @media (max-width: 767px) {
@@ -431,7 +485,6 @@ margin-bottom: 0;
 }
 
 @media (max-width: 543px) {
-  .earnings-2 .earnings-2-content a {}
 }
 
 @media (max-width: 767px) {
@@ -469,12 +522,19 @@ margin-bottom: 0;
     padding-bottom: 143%;
   }
   .hero2-text {
-    font-size: 85px;
+    font-size: 76px;
     visibility: visible;
   }
   .hero2-text-p {
     font-size: 30px;
     visibility: visible;
+  }
+
+  .mobile-btn {
+
+    visibility: visible;
+
+
   }
 
   .btn-1 {
@@ -600,7 +660,6 @@ margin-bottom: 0;
 }
 
 @media (max-width: 543px) {
-  .earnings-3 .earnings-3-content a {}
 }
 
 @media (max-width: 767px) {
@@ -644,6 +703,10 @@ height: 0;
   .hero2-text-p {
     font-size: 28px;
     visibility: visible;
+  }
+
+  .desktop-btn {
+display: none;
   }
 
   .btn-1 {

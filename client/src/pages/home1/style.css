@@ -384,5 +384,6 @@ h1, h2, h3, h4 {
 }
  .foot {
    margin: 7% auto 2% auto;
+   width: 100px;
  }
 

@@ -27,11 +27,15 @@ class BothRegisters extends Component {
 
                                 <h1 className="display-4 proxima">register</h1>
                                 <p className="lead">are you a brand or an influencer?</p>
-                                <p className="lead">
+
+                                    <div className="text-center">
+
                                     <a href="/registerbrand"><button className="btn-submit " >brand</button></a>
                                     <br></br>
                                     <a href="/registerinf"><button className="btn-submit">influencer</button></a>
-                                </p>
+
+                                    </div>
+                                
                                 <Link to="/" className="btn-">
                                     back to home
                         </Link>
