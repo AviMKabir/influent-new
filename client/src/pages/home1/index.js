@@ -151,11 +151,11 @@ function About() {
     
 
 
-      <div className="row">
+      {/* <div className="row">
 
         <img className="foot" src={Logo} alt="" />
 
-      </div>
+      </div> */}
 
 
 
