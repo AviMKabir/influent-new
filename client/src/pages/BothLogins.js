@@ -25,13 +25,22 @@ class BothLogins extends Component {
                         <div className="col-6 mx-auto">
                             <div className="jumbotron text-center">
 
-                                <h1 className="display-4 proxima">login</h1>
+                            <div className="text-center">
+
+                            <h1 className="display-4 proxima">login</h1>
                                 <p className="lead">are you a brand or an influencer?</p>
                                 <p className="lead">
                                     <a href="/loginbrand"><button className="btn btn-submit " >brand</button></a>
                                     <p> </p>
                                     <a href="/logininf"><button className="btn btn-submit">influencer</button></a>
                                 </p>
+
+                            </div>
+
+
+                              
+
+
                                 <Link to="/" className="">
                                 <i class="la la-home homeicon"></i>
                         </Link>

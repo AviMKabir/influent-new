@@ -68,8 +68,9 @@ class RegisterBrand extends Component {
                 <div className="text-center  p-5">
                     <div className="">
                     <p className="">
-                                 <Link to="/">home</Link>
-                            </p>
+                    <Link to="/" className="btn-">
+                                <i class="la la-home homeicon"></i>
+                            </Link>                            </p>
                         <div className="" >
                             <h4 className  = "proxima head-1">
                                 <b>Brand</b> Register
