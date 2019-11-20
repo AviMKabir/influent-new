@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from "../img/influent-logo-vector-2.svg";
+import Logo from "../img/logo.png";
 // eslint-disable-next-line 
 import Hero from "../img/hero-notext.png";
 // eslint-disable-next-line 
@@ -37,10 +37,10 @@ function About() {
         <div className="container">
           <div className="col-sm-12 col-xs-12 earning-vertical-align">
             <div className="earnings-content">
-              <h1 className="hero1-text"><span className="erato-italic">take control</span> in the</h1>
+              <h1 className="hero1-text"><span className="erato-italic">take control</span> of the</h1>
               <h1 className="hero1-text">new age of e-commerce</h1>
 
-              <a className="btn btn-1" href="/" data-toggle="modal" data-target="#myModal"> get started </a>
+              <a className="btn btn-1" href="/" data-toggle="modal" data-target="#myModal"> <span class = "text-center">get started</span> </a>
             </div>
           </div>
         </div>
@@ -83,11 +83,7 @@ function About() {
           </div>
         </div>
 
-        <div class="row">
-          <div className="col-12">
-            <h2 className="text-center"><span className="erato-italic">why in</span>fluent?</h2>
-          </div>
-        </div>
+      
 
       </div>
 
@@ -96,6 +92,11 @@ function About() {
 
 
 
+      <div class="row why-inf">
+          <div className="col-12">
+            <h2 className="text-center"><span className="erato-italic">why in</span>fluent?</h2>
+          </div>
+        </div>
 
       {/* heroes */}
       {/* influencer  */}
@@ -169,9 +170,9 @@ function About() {
                       <h1 className="proxima">register</h1>
                       <p className="lead">are you a brand or an influencer?</p>
                       <p className="lead">
-                        <a href="/registerbrand"><button className="btn-submit " >brand</button></a>
-                        <br></br>
-                        <a href="/registerinf"><button className="btn-submit">influencer</button></a>
+                        <a href="/registerbrand"><button className="btn btn-submit " >brand</button></a>
+                        <p> </p>
+                        <a href="/registerinf"><button className="btn btn-submit">influencer</button></a>
                       </p>
 
 

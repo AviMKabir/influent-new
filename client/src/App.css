@@ -29,6 +29,8 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background: white;
+  -webkit-appearance:none !important;
+  opacity: 1;
 }
 
 .proxima {
@@ -636,11 +638,11 @@ height: 0;
     padding-bottom: 143%;
   }
   .hero2-text {
-    font-size: 85px;
+    font-size: 75px;
     visibility: visible;
   }
   .hero2-text-p {
-    font-size: 30px;
+    font-size: 28px;
     visibility: visible;
   }
 
