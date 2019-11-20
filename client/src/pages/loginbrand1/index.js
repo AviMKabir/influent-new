@@ -57,9 +57,19 @@ class LoginBrand extends Component {
             <div className="container">
                 <div >
                     <div className="text-center  p-5">
-                        <Link to="/" className="btn-">
-                            Back to home
+
+                    <Link to="/login" className="">
+                        <i class="la la-backward"></i>
                         </Link>
+
+                        <Link to="/" className="">
+                        <i class="la la-home homeicon"></i>
+                        </Link>
+
+                        
+
+
+
                         <div className="" >
                             <h4 className  = "proxima head-1">
                                 <b>Brand</b> Login

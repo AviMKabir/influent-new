@@ -32,8 +32,8 @@ class BothLogins extends Component {
                                     <br></br>
                                     <a href="/logininf"><button className="btn-submit">influencer</button></a>
                                 </p>
-                                <Link to="/" className="btn-">
-                                    back to home
+                                <Link to="/" className="">
+                                <i class="la la-home homeicon"></i>
                         </Link>
 
                             </div>

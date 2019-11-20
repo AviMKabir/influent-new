@@ -171,7 +171,7 @@ function About() {
                       <p className="lead">
                         <a href="/registerbrand"><button className="btn-submit " >brand</button></a>
                         <br></br>
-                        <a href="/loginbrand"><button className="btn-submit">influencer</button></a>
+                        <a href="/registerinf"><button className="btn-submit">influencer</button></a>
                       </p>
 
 

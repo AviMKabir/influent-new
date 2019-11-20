@@ -68,7 +68,12 @@ class RegisterInfluencer extends Component {
                 <div className="text-center  p-5">
                     <div className="">
                     <p className="">
-                                 <Link to="/">home</Link>
+                                 <Link to="/">
+                                 <i class="la la-home homeicon"></i>
+
+                                 </Link>
+
+                                 
                             </p>
                         <div className="" >
                             <h4 className  = "proxima head-1">
