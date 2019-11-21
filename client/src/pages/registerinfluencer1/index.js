@@ -80,7 +80,7 @@ class RegisterInfluencer extends Component {
                                 <b>Influencer</b> Register
                             </h4>
                             <p className="inf-register-p">
-                                already have an account? <Link to="/loginbrand">login</Link>
+                                already have an account? <Link to="/logininf">login</Link>
                             </p>
                         </div>
                         <form className="  " noValidate onSubmit={this.onSubmit}>
