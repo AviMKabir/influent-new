@@ -33,37 +33,46 @@ function About() {
       </div>
 
       {/* ​hero */}
-      <div className="earnings clearfix">
-        <div className="container">
-          <div className="col-sm-12 col-xs-12 earning-vertical-align">
-            <div className="earnings-content">
-              <h1 className="hero1-text"><span className="erato-italic">take control</span> of the</h1>
-              <h1 className="hero1-text">new age of e-commerce</h1>
+      <section>
+        <div className="earnings clearfix">
+          <div className="container">
+            <div className="col-sm-12 col-xs-12 earning-vertical-align">
+              <div className="earnings-content">
+                <h1 className="hero1-text"><span className="erato-italic">take control</span> of the</h1>
+                <h1 className="hero1-text">new age of e-commerce</h1>
 
-              <a className="btn btn-1 desktop-btn" href="/" data-toggle="modal" data-target="#myModal"> <span class = "text-center">get started</span> </a>
-              <a className="btn btn-submit-2 mobile-btn" href="/" data-toggle="modal" data-target="#myModal"> <span class = "text-center">get started</span> </a>
+                <a className="btn btn-1 desktop-btn" href="/" data-toggle="modal" data-target="#myModal"> <span class="text-center">get started</span> </a>
+                <a className="btn btn-submit-2 mobile-btn" href="/" data-toggle="modal" data-target="#myModal"> <span class="text-center">get started</span> </a>
 
 
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
+      </section>
 
       {/* mission */}
-      <div className="container">
+
+      <section>
+      <div className="container-fluid">
+
         <div className="row">
           <h3 className="mission erato-italic">our mission</h3>
         </div>
         <div className="row">
           {/* our mission paragraph */}
-          <p className="wecreated">we created <span className="erato-italic">in</span><span className="erato">fluent</span>  to seamelessy connect brands and influencers. in order to do this, we empower brands to market themselves the way they see fit to prospective influencers, who in turn can view potential brands with which to work. within this propreitary marketplace is where the magic happens, innovative new products get paired with the bleeding edge of social networking personalities, to stay one step ahead in the new age of e-commerce.</p>
+          <p className="wecreated">we created <span className="erato-italic">in</span><span className="erato">fluent</span>  to seamelessy connect brands and influencers.
+          in order to do this, we empower brands to market themselves the way they see fit to prospective influencers, who in turn can view potential brands with which to work.
+          within this propreitary marketplace is where the magic happens, innovative new products get paired with the bleeding edge of social networking personalities, to stay one step ahead in the new age of e-commerce.</p>
         </div>
 
-        {/* //container div for icons*/}
       </div>
+      </section>
 
-      <div className="container icons">
+
+<section>
+      {/* //container div for icons*/}
+      <div className=" container icons">
 
         {/* icon row  */}
         <div className="row ">
@@ -86,9 +95,11 @@ function About() {
           </div>
         </div>
 
-      
+
 
       </div>
+      
+      </section>
 
 
 
@@ -96,10 +107,10 @@ function About() {
 
 
       <div class="row why-inf">
-          <div className="col-12">
-            <h2 className="text-center"><span className="erato-italic">why in</span>fluent?</h2>
-          </div>
+        <div className="col-12">
+          <h2 className="text-center"><span className="erato-italic">why in</span>fluent?</h2>
         </div>
+      </div>
 
       {/* heroes */}
       {/* influencer  */}
@@ -148,7 +159,7 @@ function About() {
       </div>
 
 
-    
+
 
 
       {/* <div className="row">

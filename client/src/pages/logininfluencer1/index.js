@@ -66,30 +66,30 @@ class LoginInfluencer extends Component {
                                 <i class="la la-home homeicon"></i>
                             </Link>
                             <div className="" >
-                                <h4 className="proxima head-1">
-                                    <b>Influencer</b> Login
+                                <h4 className="login-header proxima head-1">
+                                    <b>influencer</b> login
                             </h4>
 
                             </div>
                             <form noValidate onSubmit={this.onSubmit}>
                                 <div className="form-group text-center">
                                     {/* eslint-disable-next-line */}
-                                    <input className="form-control " placeholder="Email" onChange={this.onChange} value={this.state.email} error={errors.email} name="email" type="email" className={classnames("", { invalid: errors.email || errors.emailnotfound })} />
+                                    <input className="form-control " placeholder="email" onChange={this.onChange} value={this.state.email} error={errors.email} name="email" type="email" className={classnames("", { invalid: errors.email || errors.emailnotfound })} />
                                     <label htmlFor="email"></label>
-                                    <span className="red-text">
+                                    <p className="red-text">
                                         {errors.email}
                                         {errors.emailnotfound}
-                                    </span>
+                                    </p>
                                 </div>
                                 <div className="form-group text-center">
-                                    <input placeholder="Password" onChange={this.onChange} value={this.state.password} error={errors.password} name="password" type="password" className={classnames("", { invalid: errors.password || errors.passwordincorrect })} />
+                                    <input placeholder="password" onChange={this.onChange} value={this.state.password} error={errors.password} name="password" type="password" className={classnames("", { invalid: errors.password || errors.passwordincorrect })} />
                                     <label htmlFor="password"></label>
-                                    <span className="red-text">
+                                    <p className="red-text">
                                         {errors.password}
                                         {errors.passwordincorrect}
-                                    </span>
+                                    </p>
                                 </div>
-                                <div className="col s12" style={{ paddingLeft: "11.250px" }}>
+                                <div className="" >
                                     <button className="btn btn-submit" type="submit">
                                         login
                                 </button>

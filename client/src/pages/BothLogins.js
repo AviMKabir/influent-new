@@ -13,27 +13,27 @@ class BothLogins extends Component {
         return (
 
 
-            <div className="page-bg-bothlogins">
+            <div className="page-bg-bothlogins container-fluid">
 
 
 
 
 
 
-                <div className="container h-100">
+                <div className=" container h-100">
                     <div className="row align-items-center h-100">
-                        <div className="col-6 mx-auto">
+                        <div className="mx-auto">
                             <div className="jumbotron text-center">
 
                             <div className="text-center">
 
                             <h1 className="display-4 proxima">login</h1>
                                 <p className="lead">are you a brand or an influencer?</p>
-                                <p className="lead">
+                                <div className="lead text-center">
                                     <a href="/loginbrand"><button className="btn btn-submit " >brand</button></a>
                                     <p> </p>
-                                    <a href="/logininf"><button className="btn btn-submit">influencer</button></a>
-                                </p>
+                                    <a href="/logininf"><button className="btn btn-submit   ">influencer</button></a>
+                                </div>
 
                             </div>
 
